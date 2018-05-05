@@ -1,0 +1,36 @@
+.searchField{
+    position: relative;
+}
+
+.searchField i {
+    position: absolute;
+    padding: 2px;
+    pointer-events: none;
+    left: 174px;
+    color: gray;
+}
+
+.searchField input {
+    padding-right: 22px;
+}
+
+.searchField ul {
+    display: none;
+
+}
+
+.searchField ul li {
+    width: 14.7%;
+}
+
+.searchField ul .listItems:hover {
+    background-color: dimgray!important;
+    color: white!important;
+
+    cursor: pointer;
+}
+
+.searchField ul .listLabels {
+    background-color: lightblue;
+    color: white;
+}
