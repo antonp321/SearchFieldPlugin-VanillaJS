@@ -9,7 +9,7 @@
 <body>
     <div id="mainDiv">
         <div class="searchField">
-            <input type="text" id="mySearch" autocomplete="off"><i class="fa fa-search"></i>
+            <input type="text" onpaste="inputValidation(this);" onkeypress="inputValidation(this);" onkeyup="inputValidation(this);" id="mySearch" autocomplete="off"><i class="fa fa-search"></i>
             <ul id="hiddenSearchList"></ul>
         </div>
     </div>

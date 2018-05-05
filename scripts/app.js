@@ -3,6 +3,10 @@ const getRequest = async (url) => {
     return await response.json();
 };
 
+let inputValidation = function(el) {
+    el.value = el.value.replace(/[^a-zA-Z]/g, '');
+};
+
 let listPos = 0;
 let lfcPlayers;
 
